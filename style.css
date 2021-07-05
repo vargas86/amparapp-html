@@ -178,6 +178,43 @@ h4 {
   background-color: #fff;
 }
 
+.welcome {
+  font-size: 30px;
+}
+
+.dashboard {
+  margin-top: 90px !important;
+}
+
+.dashboard img {
+  margin-bottom: 20px;
+}
+
+.dashboard p {
+  font-size: 20px;
+}
+
+.dashboard button {
+  width: 100%;
+  max-width: 300px;
+  background-color: #fff;
+  border: thin solid #f4ba41;
+}
+
+.dashboard button:hover {
+  background-color: #f4ba41;
+}
+
+.dashboard button img {
+  width: 80%;
+  max-width: 150px;
+}
+
+.dashboard span {
+  font-size: 50px;
+  font-weight: 900;
+}
+
 @media (min-width: 768px) {
   .bg-campaing {
     background-color: #fff;
@@ -207,5 +244,19 @@ h4 {
 
 .infogaphy img {
   max-height: 70px;
+}
+
+.dashboard button {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.dashboard button img {
+  max-width: 125px;
+}
+
+.dashboard span {
+  font-size: 50px;
+  font-weight: 900;
 }
 /*# sourceMappingURL=style.css.map */
