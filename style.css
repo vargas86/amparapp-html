@@ -215,6 +215,24 @@ h4 {
   font-weight: 900;
 }
 
+.perfil-usuario h2 {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.perfil-usuario input {
+  border: none;
+  border-bottom: solid;
+  border-radius: 0px;
+  border-color: #102e44;
+  border-style: 1px;
+  border-width: 2px;
+}
+
+.perfil-usuario button {
+  background-color: #102e44;
+}
+
 @media (min-width: 768px) {
   .bg-campaing {
     background-color: #fff;
