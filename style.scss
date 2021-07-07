@@ -231,6 +231,39 @@ h4 {font-size: 16px;}
         }
     }
 
+    .container-cards-case {
+        .card-case {
+            border: thin dotted $yellow;
+            
+        }
+        img { 
+            max-width: 50px;
+        }
+        span {
+            font-size: 18px; 
+            font-weight: 300;
+        }
+        h2 {
+            font-size: 30px;
+            font-weight: 900;
+        }
+        h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        p {
+            font-size: 18px;
+            font-weight: 300;
+            text-align: justify;
+        }
+        button {
+            background-color: $yellow;
+            border:none !important;
+            padding: 10px;
+        }
+
+    }
+
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 

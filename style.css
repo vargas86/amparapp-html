@@ -233,6 +233,41 @@ h4 {
   background-color: #102e44;
 }
 
+.container-cards-case .card-case {
+  border: thin dotted #f4ba41;
+}
+
+.container-cards-case img {
+  max-width: 50px;
+}
+
+.container-cards-case span {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.container-cards-case h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.container-cards-case h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container-cards-case p {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.container-cards-case button {
+  background-color: #f4ba41;
+  border: none !important;
+  padding: 10px;
+}
+
 @media (min-width: 768px) {
   .bg-campaing {
     background-color: #fff;
