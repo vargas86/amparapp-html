@@ -287,6 +287,48 @@ h4 {
   font-weight: 600 !important;
 }
 
+.menu-logged {
+  width: 90%;
+}
+
+.menu-logged span {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.menu-logged ul {
+  list-style: none;
+  text-align: center;
+}
+
+.menu-logged ul li {
+  border: thin dotted #f4ba41;
+  display: -webkit-inline-box;
+  width: auto;
+  min-width: 75px;
+  float: left;
+  margin: 5px;
+  font-size: 17px;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.menu-logged ul li:hover {
+  background-color: #f4ba41;
+}
+
+.menu-logged ul li a {
+  text-decoration: none;
+  color: #102e44;
+}
+
+ul.menu-pages li {
+  border: none !important;
+  margin: 0 !important;
+  padding: 4px !important;
+  font-weight: 300;
+}
+
 @media (min-width: 768px) {
   .bg-campaing {
     background-color: #fff;
@@ -337,6 +379,9 @@ h4 {
   .sign-page h3 {
     font-size: 20px !important;
     font-weight: 600 !important;
+  }
+  .menu-logged {
+    width: 25%;
   }
 }
 /*# sourceMappingURL=style.css.map */
