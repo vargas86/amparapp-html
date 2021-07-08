@@ -272,8 +272,16 @@ h4 {font-size: 16px;}
         h1 {
             font-size: 25px !important;
             text-transform: uppercase;
-
         }
+        h2 {
+            font-size: 22px !important;
+            font-weight: 300 !important;
+        }
+        h3 {
+            font-size: 16px !important;
+            font-weight: 600 !important;
+        }
+
     }
 
 
@@ -309,29 +317,47 @@ h4 {font-size: 16px;}
             max-width: 550px;
         }
     }
-}
-.infogaphy {
-    img {
-        
-        max-height: 70px;
-    }
-}
 
-.dashboard {
-    button {
-        width: 100%;
-        margin-bottom: 25px;
+    .infogaphy {
+        img {
+            
+            max-height: 70px;
+        }
     }
-    button img {
 
-        max-width: 125px;
+    .dashboard {
+        button {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        button img {
+
+            max-width: 125px;
+        }
+        span {
+            font-size:50px;
+            font-weight: 900;
+        }
     }
-    span {
-        font-size:50px;
-        font-weight: 900;
+
+    .sign-page {
+        h1 {
+            font-size: 37px !important;
+            text-transform: uppercase;
+        }
+        h2 {
+            font-size: 30px !important;
+            font-weight: 300 !important;
+        }
+        h3 {
+            font-size: 20px !important;
+            font-weight: 600 !important;
+        }
+
     }
+
+
 }
-
 // // Large devices (desktops, 992px and up)
 // @media (min-width: 992px) { 
 //  }
