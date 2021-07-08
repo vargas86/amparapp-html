@@ -9,7 +9,7 @@ $white:#fff;
 }
 
 *, body, h1, h2, h3, h4, span, p, a {
-    @include text-color
+    @include text-color;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -37,6 +37,10 @@ h4 {font-size: 16px;}
 
 .bg-campaing {
     background-color: $gray;
+}
+
+.bg-blue {
+    background-color: $blue;
 }
 
 .cover-main {
@@ -262,6 +266,14 @@ h4 {font-size: 16px;}
             padding: 10px;
         }
 
+    }
+
+    .sign-page {
+        h1 {
+            font-size: 25px !important;
+            text-transform: uppercase;
+
+        }
     }
 
 
