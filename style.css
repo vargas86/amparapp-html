@@ -329,6 +329,12 @@ ul.menu-pages li {
   font-weight: 300;
 }
 
+.carga-caso h2 {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-align: right;
+}
+
 @media (min-width: 768px) {
   .bg-campaing {
     background-color: #fff;
